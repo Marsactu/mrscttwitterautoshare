@@ -1,0 +1,25 @@
+{
+    "name": "kanvas/mrscttwitterautoshare",
+    "type": "plugin",
+    "autoload": {
+        "psr-0": {
+            "Kanvas\\Mrscttwitterautoshare\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mathieu",
+            "email": "mathieu@kanvas.fr"
+        }
+    ],
+    "repositories": [
+      {
+        "url": "https://github.com/iconicwp/WordPress-Settings-Framework",
+        "type": "git"
+      }
+    ],
+    "require": {
+        "psr/log": "^1.1",
+        "coderjerk/bird-elephant": "^0.4.3"
+    }
+}
